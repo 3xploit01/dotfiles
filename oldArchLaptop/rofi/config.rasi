@@ -1,0 +1,5 @@
+configuration {
+	modi: "drun";
+	font: "Source Code Pro 14";
+}
+@import "/home/the3xploit/.config/rofi/theme.rasi"
