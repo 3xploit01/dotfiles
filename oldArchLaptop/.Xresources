@@ -1,0 +1,46 @@
+!! appearance
+urxvt.scrollBar: false
+urxvt.font: xft:Source Code Pro:size=11
+urxvt.transparency: true
+urxvt.depth: 32
+rofi.font: Source Code Pro 14
+
+!! Colorsceme
+
+! special
+*.foreground: #FFFFFF
+*.background: #000000
+urxvt.background: #000000
+*.cursorcolor: #fFFFFF
+
+! colors
+*.color0: #000000
+urxvt.color0: [92]#000000
+*.color8: #323232
+
+*.color1: #FF0000
+*.color9: #FF0000
+
+*.color2: #ff5e00
+*.color10: #ff6d00
+
+*.color3: #FF0000
+*.color11: #FF5e00
+
+*.color4: #FF5e00
+*.color12: #FF5e00
+
+*.color5: #FF5e00
+*.color13: #ff872e
+
+*.color6: #d65b00
+*.color14: #d65b00
+
+*.color7: #ffffff
+*.color15: #ffffff
+
+! keyboard shortcuts
+urxvt.keysym.Shift-Control-V: perl:clipboard:paste
+urxvt.iso14755: false
+urxvt.perl-ext-common: default,clipboard
+
