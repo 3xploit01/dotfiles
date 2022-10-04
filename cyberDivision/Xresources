@@ -1,16 +1,17 @@
 ## initial setup
-i3-wm.mod: Mod1
-i3-wm.alt: Mod4
+i3-wm.mod: Mod4
+i3-wm.alt: Mod1
 !regolith.look.path: /usr/share/regolith-look/default
 !regolith.look.path: /usr/share/regolith-look/blackhole
 
 ## wallpaper
 !gnome.wallpaper: /home/the3xploit/pictures/wallpapers/cropped-wallpaper-for-hacker.png
-regolith.wallpaper.file: /home/the3xploit/pictures/wallpapers/simpleWP.png
+regolith.wallpaper.file: /home/the3xploit/Pictures/simpleWP.png
+regolith.wallpaper.lockscreen.file: /home/the3xploit/Pictures/simpleWP.png
 
 ## gaps and borders
-i3-wm.gaps.inner.size: 20
-i3-wm.gaps.outer.size: 10
+i3-wm.gaps.inner.size: 16
+i3-wm.gaps.outer.size: 8
 i3-wm.window.border.size: 1
 i3-wm.client.focused.color.child_border:		#ff5c00
 i3-wm.client.focused.color.indicator:			#ff5c00
@@ -24,22 +25,22 @@ gnome.terminal.color0:		#000000
 gnome.terminal.color1:		#ff5c00
 gnome.terminal.color2:		#ff5c00
 gnome.terminal.color3:		#ff5c00
-gnome.terminal.color4:		#ffffff
+gnome.terminal.color4:		#ff5c00
 gnome.terminal.color5:		#ff5c00
 gnome.terminal.color6:		#ff5c00
 gnome.terminal.color7:		#D5D5D5
 
 gnome.terminal.color8:		#ffffff
-gnome.terminal.color9:		#888888
-gnome.terminal.color10:		#888888
-gnome.terminal.color11:		#888888
+gnome.terminal.color9:		#323232
+gnome.terminal.color10:		#ffffff
+gnome.terminal.color11:		#ffffff
 gnome.terminal.color12:		#ff5c00
 gnome.terminal.color13:		#ff5c00
 gnome.terminal.color14:		#ff5c00
 gnome.terminal.color15:		#ffffff
 gnome.terminal.use-transparent-background: true
 gnome.terminal.background-transparency-percent: 16
-gnome.terminal.font: mononoki Nerd Font Mono 11
+gnome.terminal.font: Noto Mono 11
 
 ## panel setup
 i3-wm.bar.position: top
