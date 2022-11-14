@@ -35,7 +35,7 @@ gnome.terminal.color10:		#ffffff
 gnome.terminal.color11:		#ffffff
 gnome.terminal.color12:		#ff5c00
 gnome.terminal.color13:		#ff5c00
-gnome.terminal.color14:		#ffffff
+gnome.terminal.color14:		#ff5c00
 gnome.terminal.color15:		#ffffff
 gnome.terminal.use-transparent-background: true
 gnome.terminal.background-transparency-percent: 16
